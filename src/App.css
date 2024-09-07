@@ -4,3 +4,31 @@
   padding: 2rem;
   text-align: center;
 }
+
+.btn-danger {
+  margin-left: 0.5rem;
+  border: 2px 2px red;
+  color: red;
+  background: darkred;
+}
+
+.btn {
+  margin-top: 0.5rem;
+}
+.label {
+  margin-right: 0.5rem;
+}
+form {
+  margin-left: 0.5rem;
+}
+button:hover {
+  border: none;
+  border: 2px 2px red;
+}
+button:after {
+  border: 2px 2px red;
+}
+
+li::marker {
+  display: none;
+}
